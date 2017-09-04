@@ -15,7 +15,7 @@ class ContactsController extends Controller
     public function index()
     {
         //
-        return 'eeee';
+        return Contact::all();
     }
 
     /**
